@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(
+    178.6deg,
+    rgb(20, 36, 50) 11.8%,
+    rgb(124, 143, 161) 83.8%
+  );
+  padding: 60px;
+}
+
+.gif {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 700px;
+}
+h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-family: "Poor Story", system-ui;
+  font-family: "Poppins", sans-serif;
+  font-family: "Protest Revolution", sans-serif;
+  padding: 30px;
+  font-size: 50px;
+  color: white;
+}
+p {
+  font-family: "Playfair Display", serif;
+  font-family: "Poor Story", system-ui;
+  font-family: "Poppins", sans-serif;
+  font-family: "Protest Revolution", sans-serif;
+  font-family: "Single Day", cursive;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 80px;
+}
+.logo {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+}
+.img1 {
+  width: 400px;
+  padding: 30px;
+  background-color: rgb(192, 207, 219);
+  border-radius: 20px;
+  border-style: dashed;
+  border-color: white;
+  margin: 40px 0;
+}
+.img2 {
+  width: 400px;
+  display: block;
+  padding: 30px;
+  background-color: rgb(192, 207, 219);
+  border-radius: 20px;
+  border-style: dashed;
+  border-color: white;
+  margin: 40px 0;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-family: "Poor Story", system-ui;
+  font-family: "Poppins", sans-serif;
+  font-family: "Protest Revolution", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: white;
+
+  line-height: 1.5;
+}
+.project-description {
+  font-size: 23px;
+
+  line-height: 1.5;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    padding-top: 0;
+  }
+  p {
+    font-size: 20px;
+  }
+  .project-description {
+    font-size: 18px;
+  }
+}
