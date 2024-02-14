@@ -4,9 +4,52 @@ body {
     rgb(20, 36, 50) 11.8%,
     rgb(124, 143, 161) 83.8%
   );
-  padding: 60px;
+  padding: 15px 60px 60px 60px;
 }
-
+nav a img {
+  width: 50px;
+  border-radius: 60px;
+}
+.name-link {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 50px;
+  font-family: "Playfair Display", serif;
+  font-family: "Poor Story", system-ui;
+  font-family: "Poppins", sans-serif;
+  font-family: "Protest Revolution", sans-serif;
+  font-size: 20px;
+  margin-left: 5px;
+}
+nav a .name-link {
+  text-decoration: none;
+}
+nav a :hover {
+  text-decoration: underline;
+  color: white;
+}
+.container-logo {
+  margin-bottom: 30px;
+}
+nav ul {
+  list-style: none;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav li a {
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  font-family: "Poor Story", system-ui;
+  font-family: "Poppins", sans-serif;
+  font-family: "Protest Revolution", sans-serif;
+}
+nav li a:hover {
+  text-decoration: underline;
+  color: white;
+}
 .gif {
   display: block;
   margin: 0 auto;
@@ -75,6 +118,9 @@ h3 {
   line-height: 1.5;
 }
 @media (max-width: 900px) {
+  body {
+    padding: 15px 18px 18px 30px;
+  }
   h1 {
     font-size: 30px;
   }
@@ -86,5 +132,15 @@ h3 {
   }
   .project-description {
     font-size: 18px;
+  }
+  nav img {
+    width: 20px;
+  }
+  .name-link {
+    display: none;
+  }
+  nav li a {
+    font-size: 10px;
+    margin: 5px;
   }
 }
