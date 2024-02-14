@@ -5,7 +5,9 @@ body {
     rgb(124, 143, 161) 83.8%
   );
   padding: 15px 60px 60px 60px;
+  line-height: 1.7;
 }
+
 nav a img {
   width: 50px;
   border-radius: 60px;
@@ -117,6 +119,32 @@ h3 {
   font-size: 23px;
 
   line-height: 1.5;
+}
+.p-about {
+  text-align: center;
+}
+a {
+  color: #2c3d4c;
+}
+a:hover {
+  color: white;
+}
+.skills {
+  font-family: "Playfair Display", serif;
+  font-family: "Poor Story", system-ui;
+  font-family: "Poppins", sans-serif;
+  font-family: "Protest Revolution", sans-serif;
+  font-family: "Single Day", cursive;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+.skills-skill {
+  padding: 10px;
+  margin: 10px;
+  background: #2c3d4c;
+  border-radius: 5px;
 }
 @media (max-width: 900px) {
   body {
