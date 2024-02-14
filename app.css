@@ -50,9 +50,7 @@ nav li a:hover {
   text-decoration: underline;
   color: white;
 }
-.active {
-  color: black;
-}
+
 .gif {
   display: block;
   margin: 0 auto;
