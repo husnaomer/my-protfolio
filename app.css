@@ -210,8 +210,12 @@ h6 {
   h3 {
     padding-top: 0;
   }
+  h4 {
+    text-align: center;
+  }
   p {
     font-size: 20px;
+    text-align: center;
   }
   .project-description {
     font-size: 18px;
