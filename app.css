@@ -77,6 +77,12 @@ p {
   color: white;
   padding-bottom: 20px;
 }
+.web {
+  color: aliceblue;
+  display: block;
+  text-align: center;
+}
+
 .logo {
   color: black;
   text-align: center;
@@ -184,6 +190,7 @@ h5 {
   font-family: "Protest Revolution", sans-serif;
   font-family: "Single Day", cursive;
 }
+
 h6 {
   font-family: "Playfair Display", serif;
   font-family: "Poor Story", system-ui;
